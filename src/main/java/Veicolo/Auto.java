@@ -159,7 +159,6 @@ public class Auto implements Pagamento {  //Classe Auto con implementazione dell
             do
             {
                 System.out.println("Seleziona modello");
-                System.out.println("ciao modello");
                 System.out.println(auto1);
                 b = in.nextInt();
             }while((b < 0) || (b > 6));
