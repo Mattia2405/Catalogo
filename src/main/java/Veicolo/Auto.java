@@ -609,7 +609,8 @@ public class Auto implements Pagamento {  //Classe Auto con implementazione dell
                 b = in.nextInt();
             }while((b < 0) || (b > 4));
             System.out.println("Hai scelto: " + auto1.get(b));
-            if(auto1.get(b).equalsIgnoreCase("0) C63")){
+            if(auto1.get(b).equalsIgnoreCase("0) C63"))
+            {
                 do
                 { 
                     System.out.println(vernice);  
