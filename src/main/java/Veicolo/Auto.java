@@ -109,7 +109,7 @@ public class Auto implements Pagamento {  //Classe Auto con implementazione dell
                     System.out.println("Scegli colore: ");
                     colore = sc.nextInt(); 
                 }while ((colore < 0) || (colore > 15));
-                System.out.println("Hai scelto: " + vernice.get(colore));   //stampo colore scelto
+                System.out.println("Hai scelto: " + vernice.get(colore));
                 System.out.println("\nPrezzo: 14.600 euro");
             }
             else if (auto1.get(b).equalsIgnoreCase("2) Panda")) 
